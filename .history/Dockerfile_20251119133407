@@ -21,11 +21,11 @@ LABEL version="1.0.0"
 # Copy built assets from builder
 COPY --from=builder /app/dist /usr/share/nginx/html
 
-# Copy full nginx configuration (replaces default to fix permissions)
-COPY nginx-full.conf /etc/nginx/nginx.conf
+# Copy nginx configuration
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Set proper permissions
-RUN chown -R root:root /usr/share/nginx/html && \
+RUN chown -R nginx:nginx /usr/share/nginx/html && \
     chmod -R 755 /usr/share/nginx/html
 
 # Health check

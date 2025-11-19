@@ -7,12 +7,12 @@ services:
       dockerfile: Dockerfile
     container_name: gmb-ecc-dashboard
     ports:
-      - "${HOST_PORT:-5173}:80"
+      - "${HOST_PORT:-5173}:8080"
     restart: unless-stopped
     environment:
       - NODE_ENV=production
     healthcheck:
-      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:80/health"]
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:8080/health"]
       interval: 30s
       timeout: 3s
       retries: 3
