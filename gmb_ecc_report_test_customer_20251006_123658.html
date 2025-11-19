@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMB-ECC Energy Efficiency Analysis Report - test_customer</title>
+    <style>
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 30px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+        }
+        
+        .header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+        .header p { font-size: 1.1rem; opacity: 0.9; margin-bottom: 1rem; }
+        
+        .enhanced-badge {
+            display: inline-block;
+            background: rgba(39, 174, 96, 0.9);
+            padding: 0.4rem 1rem;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin: 0.3rem;
+        }
+        
+        .section {
+            padding: 2.5rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .section h2 {
+            color: #2c3e50;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 4px solid #3498db;
+            padding-bottom: 0.5rem;
+        }
+        
+        .summary-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .card {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border: 2px solid #dee2e6;
+            border-radius: 15px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .card-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+        }
+        
+        .card-label {
+            font-size: 1.1rem;
+            color: #7f8c8d;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+        
+        .component-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .component-table th {
+            background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%);
+            color: white;
+            padding: 1rem;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .component-table td {
+            padding: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .component-table tbody tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .status-badge {
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .status-well-tuned { background: #d4edda; color: #155724; }
+        .status-partially-optimized { background: #fff3cd; color: #856404; }
+        .status-misconfigured { background: #f8d7da; color: #721c24; }
+        .status-critical { background: #f8d7da; color: #721c24; }
+        .status-unknown { background: #e2e3e5; color: #383d41; }
+        
+        .footer {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .footer p { margin: 0.5rem 0; opacity: 0.8; }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="header">
+            <div class="header-content">
+                <h1>GMB-ECC Energy Efficiency Analysis Report - test_customer</h1>
+                <p>Customer: test_customer | Analysis Date: October 06, 2025 at 12:36 pm</p>
+                <div class="badges">
+                    <span class="enhanced-badge">GMB-ECC Analysis</span>
+                    <span class="enhanced-badge">Professional Report</span>
+                    <span class="enhanced-badge">Component Analysis</span>
+                    <span class="enhanced-badge">v2.2.0-pdf-compliant</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Executive Summary</h2>
+            <div class="summary-cards">
+                <div class="card">
+                    <div class="card-value" style="color: #e74c3c;">40.2%</div>
+                    <div class="card-label">System Health Score</div>
+                    <div style="margin-top: 0.5rem; font-weight: 500; color: #e74c3c;">Critical</div>
+                </div>
+                <div class="card">
+                    <div class="card-value">€1,352</div>
+                    <div class="card-label">Annual Savings Potential</div>
+                </div>
+                <div class="card">
+                    <div class="card-value">59.8%</div>
+                    <div class="card-label">Average Efficiency Gap</div>
+                </div>
+                <div class="card">
+                    <div class="card-value">60.0%</div>
+                    <div class="card-label">Data Quality Score</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>System Overview</h2>
+            <h3>Component Distribution</h3>
+            <div class="summary-cards">
+                <div class="card">
+                    <div class="card-value" style="color: #27ae60;">0</div>
+                    <div class="card-label">Well-Tuned Components</div>
+                    <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #7f8c8d;">
+                        0.0% of total
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-value" style="color: #f39c12;">0</div>
+                    <div class="card-label">Partially Optimized</div>
+                    <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #7f8c8d;">
+                        0.0% of total
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-value" style="color: #e74c3c;">9</div>
+                    <div class="card-label">Misconfigured</div>
+                    <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #7f8c8d;">
+                        100.0% of total
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-value">9</div>
+                    <div class="card-label">Total Components</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Component Analysis</h2>
+            <p>Detailed analysis of 9 system components.</p>
+            
+            <table class="component-table">
+                <thead>
+                    <tr>
+                        <th>Component ID</th>
+                        <th>Type</th>
+                        <th>Current Efficiency</th>
+                        <th>Optimal Efficiency</th>
+                        <th>Normalized Efficiency Gap</th>
+                        <th>Savings Potential</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+            <tr>
+                <td><strong>BB001</strong></td>
+                <td>Baseband</td>
+                <td>40.3%</td>
+                <td>80.0%</td>
+                <td>42.2%</td>
+                <td>€193</td>
+                <td><span class="status-badge status-misconfigured">Misconfigured</span></td>
+            </tr>
+            
+            <tr>
+                <td><strong>BB002</strong></td>
+                <td>Baseband</td>
+                <td>40.3%</td>
+                <td>80.0%</td>
+                <td>42.2%</td>
+                <td>€193</td>
+                <td><span class="status-badge status-misconfigured">Misconfigured</span></td>
+            </tr>
+            
+            <tr>
+                <td><strong>IRU001</strong></td>
+                <td>Radio Unit</td>
+                <td>38.5%</td>
+                <td>83.0%</td>
+                <td>47.0%</td>
+                <td>€63</td>
+                <td><span class="status-badge status-misconfigured">Misconfigured</span></td>
+            </tr>
+            
+            <tr>
+                <td><strong>IRU002</strong></td>
+                <td>Radio Unit</td>
+                <td>40.8%</td>
+                <td>83.0%</td>
+                <td>44.6%</td>
+                <td>€60</td>
+                <td><span class="status-badge status-misconfigured">Misconfigured</span></td>
+            </tr>
+            
+            <tr>
+                <td><strong>ANT001</strong></td>
+                <td>Antenna</td>
+                <td>5.0%</td>
+                <td>78.0%</td>
+                <td>75.4%</td>
+                <td>€122</td>
+                <td><span class="status-badge status-misconfigured">Misconfigured</span></td>
+            </tr>
+            
+            <tr>
+                <td><strong>ROB001</strong></td>
+                <td>Robot</td>
+                <td>22.0%</td>
+                <td>85.0%</td>
+                <td>65.4%</td>
+                <td>€71</td>
+                <td><span class="status-badge status-misconfigured">Misconfigured</span></td>
+            </tr>
+            
+            <tr>
+                <td><strong>EB001</strong></td>
+                <td>Edge Box</td>
+                <td>17.9%</td>
+                <td>82.0%</td>
+                <td>66.5%</td>
+                <td>€54</td>
+                <td><span class="status-badge status-misconfigured">Misconfigured</span></td>
+            </tr>
+            
+            <tr>
+                <td><strong>EB002</strong></td>
+                <td>Edge Box</td>
+                <td>8.6%</td>
+                <td>82.0%</td>
+                <td>75.9%</td>
+                <td>€61</td>
+                <td><span class="status-badge status-misconfigured">Misconfigured</span></td>
+            </tr>
+            
+            <tr>
+                <td><strong>CS001</strong></td>
+                <td>Charging Station</td>
+                <td>15.3%</td>
+                <td>92.0%</td>
+                <td>79.1%</td>
+                <td>€534</td>
+                <td><span class="status-badge status-misconfigured">Misconfigured</span></td>
+            </tr>
+            
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="footer">
+            <div class="header-content">
+                <p><strong>GMB-ECC Energy Efficiency Analysis Framework</strong></p>
+                <p>Professional Analysis | Comprehensive Reporting | Data-Driven Insights</p>
+                <p>Report generated on October 06, 2025 at 12:36 pm UTC</p>
+                <p style="margin-top: 1rem; font-size: 0.9rem;">
+                    Version: 2.2.0-pdf-compliant | Framework Analysis Complete
+                </p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

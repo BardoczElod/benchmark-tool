@@ -1,0 +1,777 @@
+{
+  "analysis_metadata": {
+    "customer_id": "test_customer",
+    "analysis_timestamp": "2025-10-06T12:36:58.515003",
+    "framework_version": "2.2.0-pdf-compliant",
+    "total_components_analyzed": 9,
+    "configuration_based": true,
+    "framework_info": {
+      "name": "GMB-ECC Framework",
+      "version": "2.2.0-pdf-compliant",
+      "configuration_validated": true,
+      "gmb_ecc_methodology": "4-category (Framework extended from PDF)",
+      "total_component_types": 6
+    }
+  },
+  "system_summary": {
+    "average_efficiency_gap": 0.598,
+    "total_annual_savings_potential_eur": 1352.17,
+    "system_health_score": 0.402,
+    "well_tuned_components": 0,
+    "partially_optimized_components": 0,
+    "misconfigured_components": 4,
+    "critical_components": 5,
+    "data_quality_score": 0.6
+  },
+  "benchmarking_analysis": {
+    "total_components": 9,
+    "category_distribution": {
+      "well_tuned": 0,
+      "partially_optimized": 0,
+      "misconfigured": 4,
+      "critical": 5
+    },
+    "average_efficiency_gap": 0.598,
+    "total_potential_savings_eur": 538.33,
+    "economic_validation": {
+      "total_components_processed": 9,
+      "categorization_method": "configuration_based",
+      "economic_calculation": "configuration_based"
+    },
+    "calculation_method": "configuration_based_corrected_attributes"
+  },
+  "precision_analysis": {
+    "total_components": 9,
+    "current_average_variance": 0.005,
+    "target_average_variance": 0.0133,
+    "total_cost_impact_eur": -648000.0,
+    "components_to_upgrade": 0,
+    "components_to_downgrade": 5,
+    "precision_optimization_method": "configuration_based_cost_benefit_analysis"
+  },
+  "multi_state_analysis": null,
+  "component_results": {
+    "BB001": {
+      "component_info": {
+        "component_id": "BB001",
+        "component_type": "jkl",
+        "location": "unknown",
+        "analysis_timestamp": "2025-10-06T12:36:58.626123",
+        "type_detection_confidence": 0.8
+      },
+      "efficiency_analysis": {
+        "current_efficiency": 40.266,
+        "optimal_efficiency": 80.0,
+        "efficiency_gap": 0.422,
+        "current_utilization": 0.524,
+        "optimal_utilization": 0.7,
+        "current_variance": 0.0004,
+        "optimal_variance": 0.0002,
+        "function_fitted": false,
+        "calculation_method": "corrected_gmb_ecc_v2_1_0_realistic",
+        "fit_quality": null,
+        "configuration_based_calculation": true
+      },
+      "benchmarking": {
+        "category": "Misconfigured",
+        "priority": "3",
+        "efficiency_gap": 0.422,
+        "annual_savings_potential_eur": 193.48,
+        "optimization_effort_score": 0.844,
+        "validation_details": {},
+        "realistic_savings": true,
+        "configuration_based_calculation": true
+      },
+      "precision_analysis": {
+        "current_mode": "high_precision",
+        "recommended_mode": "high_precision",
+        "current_variance": 0.005,
+        "target_variance": 0.005,
+        "cost_impact_eur": 0.0,
+        "confidence_score": 0.3,
+        "precision_improvement_recommended": false
+      },
+      "utilization_analysis": {
+        "data_points": 203,
+        "current_average": 0.524,
+        "optimal_range": [
+          0.5,
+          0.75
+        ],
+        "efficiency_correlation": 0.0,
+        "analysis_quality": "high",
+        "trend_analysis": "volatile",
+        "calculation_method": "corrected_component_specific_v2_1_0"
+      },
+      "summary": {
+        "annual_savings_potential_eur": 193.48,
+        "optimization_priority_score": 0.75,
+        "implementation_effort_score": 0.844,
+        "data_quality": "high",
+        "calculation_method": "configuration_based_gmb_ecc",
+        "validation_issues": [],
+        "configuration_used": {
+          "component_type": "baseband",
+          "power_rating_w": 340,
+          "peak_efficiency": 85.0,
+          "optimal_utilization": 0.75
+        }
+      }
+    },
+    "BB002": {
+      "component_info": {
+        "component_id": "BB002",
+        "component_type": "baseband",
+        "location": "unknown",
+        "analysis_timestamp": "2025-10-06T12:36:58.626154",
+        "type_detection_confidence": 0.8
+      },
+      "efficiency_analysis": {
+        "current_efficiency": 40.266,
+        "optimal_efficiency": 80.0,
+        "efficiency_gap": 0.422,
+        "current_utilization": 0.524,
+        "optimal_utilization": 0.7,
+        "current_variance": 0.0004,
+        "optimal_variance": 0.0002,
+        "function_fitted": false,
+        "calculation_method": "corrected_gmb_ecc_v2_1_0_realistic",
+        "fit_quality": null,
+        "configuration_based_calculation": true
+      },
+      "benchmarking": {
+        "category": "Misconfigured",
+        "priority": "3",
+        "efficiency_gap": 0.422,
+        "annual_savings_potential_eur": 193.48,
+        "optimization_effort_score": 0.844,
+        "validation_details": {},
+        "realistic_savings": true,
+        "configuration_based_calculation": true
+      },
+      "precision_analysis": {
+        "current_mode": "high_precision",
+        "recommended_mode": "high_precision",
+        "current_variance": 0.005,
+        "target_variance": 0.005,
+        "cost_impact_eur": 0.0,
+        "confidence_score": 0.3,
+        "precision_improvement_recommended": false
+      },
+      "utilization_analysis": {
+        "data_points": 203,
+        "current_average": 0.524,
+        "optimal_range": [
+          0.5,
+          0.75
+        ],
+        "efficiency_correlation": 0.0,
+        "analysis_quality": "high",
+        "trend_analysis": "volatile",
+        "calculation_method": "corrected_component_specific_v2_1_0"
+      },
+      "summary": {
+        "annual_savings_potential_eur": 193.48,
+        "optimization_priority_score": 0.75,
+        "implementation_effort_score": 0.844,
+        "data_quality": "high",
+        "calculation_method": "configuration_based_gmb_ecc",
+        "validation_issues": [],
+        "configuration_used": {
+          "component_type": "baseband",
+          "power_rating_w": 340,
+          "peak_efficiency": 85.0,
+          "optimal_utilization": 0.75
+        }
+      }
+    },
+    "IRU001": {
+      "component_info": {
+        "component_id": "IRU001",
+        "component_type": "radio_unit",
+        "location": "unknown",
+        "analysis_timestamp": "2025-10-06T12:36:58.626165",
+        "type_detection_confidence": 0.8
+      },
+      "efficiency_analysis": {
+        "current_efficiency": 38.497,
+        "optimal_efficiency": 83.0,
+        "efficiency_gap": 0.47,
+        "current_utilization": 0.494,
+        "optimal_utilization": 0.68,
+        "current_variance": 0.0004,
+        "optimal_variance": 0.0002,
+        "function_fitted": false,
+        "calculation_method": "corrected_gmb_ecc_v2_1_0_realistic",
+        "fit_quality": null,
+        "configuration_based_calculation": true
+      },
+      "benchmarking": {
+        "category": "Misconfigured",
+        "priority": "3",
+        "efficiency_gap": 0.47,
+        "annual_savings_potential_eur": 63.34,
+        "optimization_effort_score": 0.939,
+        "validation_details": {},
+        "realistic_savings": true,
+        "configuration_based_calculation": true
+      },
+      "precision_analysis": {
+        "current_mode": "high_precision",
+        "recommended_mode": "high_precision",
+        "current_variance": 0.005,
+        "target_variance": 0.005,
+        "cost_impact_eur": 0.0,
+        "confidence_score": 0.3,
+        "precision_improvement_recommended": false
+      },
+      "utilization_analysis": {
+        "data_points": 300,
+        "current_average": 0.494,
+        "optimal_range": [
+          0.45,
+          0.75
+        ],
+        "efficiency_correlation": 0.0,
+        "analysis_quality": "high",
+        "trend_analysis": "volatile",
+        "calculation_method": "corrected_component_specific_v2_1_0"
+      },
+      "summary": {
+        "annual_savings_potential_eur": 63.34,
+        "optimization_priority_score": 0.75,
+        "implementation_effort_score": 0.939,
+        "data_quality": "high",
+        "calculation_method": "configuration_based_gmb_ecc",
+        "validation_issues": [],
+        "configuration_used": {
+          "component_type": "radio_unit",
+          "power_rating_w": 100,
+          "peak_efficiency": 85.0,
+          "optimal_utilization": 0.75
+        }
+      }
+    },
+    "IRU002": {
+      "component_info": {
+        "component_id": "IRU002",
+        "component_type": "radio_unit",
+        "location": "unknown",
+        "analysis_timestamp": "2025-10-06T12:36:58.626174",
+        "type_detection_confidence": 0.8
+      },
+      "efficiency_analysis": {
+        "current_efficiency": 40.832,
+        "optimal_efficiency": 83.0,
+        "efficiency_gap": 0.446,
+        "current_utilization": 0.501,
+        "optimal_utilization": 0.68,
+        "current_variance": 0.0004,
+        "optimal_variance": 0.0002,
+        "function_fitted": false,
+        "calculation_method": "corrected_gmb_ecc_v2_1_0_realistic",
+        "fit_quality": null,
+        "configuration_based_calculation": true
+      },
+      "benchmarking": {
+        "category": "Misconfigured",
+        "priority": "3",
+        "efficiency_gap": 0.446,
+        "annual_savings_potential_eur": 60.19,
+        "optimization_effort_score": 0.892,
+        "validation_details": {},
+        "realistic_savings": true,
+        "configuration_based_calculation": true
+      },
+      "precision_analysis": {
+        "current_mode": "high_precision",
+        "recommended_mode": "high_precision",
+        "current_variance": 0.005,
+        "target_variance": 0.005,
+        "cost_impact_eur": 0.0,
+        "confidence_score": 0.3,
+        "precision_improvement_recommended": false
+      },
+      "utilization_analysis": {
+        "data_points": 300,
+        "current_average": 0.501,
+        "optimal_range": [
+          0.45,
+          0.75
+        ],
+        "efficiency_correlation": 0.0,
+        "analysis_quality": "high",
+        "trend_analysis": "volatile",
+        "calculation_method": "corrected_component_specific_v2_1_0"
+      },
+      "summary": {
+        "annual_savings_potential_eur": 60.19,
+        "optimization_priority_score": 0.75,
+        "implementation_effort_score": 0.892,
+        "data_quality": "high",
+        "calculation_method": "configuration_based_gmb_ecc",
+        "validation_issues": [],
+        "configuration_used": {
+          "component_type": "radio_unit",
+          "power_rating_w": 100,
+          "peak_efficiency": 85.0,
+          "optimal_utilization": 0.75
+        }
+      }
+    },
+    "ANT001": {
+      "component_info": {
+        "component_id": "ANT001",
+        "component_type": "antenna",
+        "location": "unknown",
+        "analysis_timestamp": "2025-10-06T12:36:58.626184",
+        "type_detection_confidence": 0.7
+      },
+      "efficiency_analysis": {
+        "current_efficiency": 5.0,
+        "optimal_efficiency": 78.0,
+        "efficiency_gap": 0.754,
+        "current_utilization": 0.01,
+        "optimal_utilization": 0.55,
+        "current_variance": 0.0004,
+        "optimal_variance": 0.0002,
+        "function_fitted": false,
+        "calculation_method": "corrected_gmb_ecc_v2_1_0_realistic",
+        "fit_quality": null,
+        "configuration_based_calculation": true
+      },
+      "benchmarking": {
+        "category": "Misconfigured",
+        "priority": "3",
+        "efficiency_gap": 0.754,
+        "annual_savings_potential_eur": 122.14,
+        "optimization_effort_score": 1.0,
+        "validation_details": {},
+        "realistic_savings": true,
+        "configuration_based_calculation": true
+      },
+      "precision_analysis": {
+        "current_mode": "high_precision",
+        "recommended_mode": "standard",
+        "current_variance": 0.005,
+        "target_variance": 0.02,
+        "cost_impact_eur": -129600.0,
+        "confidence_score": 0.3,
+        "precision_improvement_recommended": true
+      },
+      "utilization_analysis": {
+        "data_points": 291,
+        "current_average": 0.01,
+        "optimal_range": [
+          0.4,
+          0.7
+        ],
+        "efficiency_correlation": 0.0,
+        "analysis_quality": "high",
+        "trend_analysis": "stable",
+        "calculation_method": "corrected_component_specific_v2_1_0"
+      },
+      "summary": {
+        "annual_savings_potential_eur": 122.14,
+        "optimization_priority_score": 0.75,
+        "implementation_effort_score": 1.0,
+        "data_quality": "high",
+        "calculation_method": "configuration_based_gmb_ecc",
+        "validation_issues": [],
+        "configuration_used": {
+          "component_type": "antenna",
+          "power_rating_w": 120,
+          "peak_efficiency": 85.0,
+          "optimal_utilization": 0.75
+        }
+      }
+    },
+    "ROB001": {
+      "component_info": {
+        "component_id": "ROB001",
+        "component_type": "robot",
+        "location": "unknown",
+        "analysis_timestamp": "2025-10-06T12:36:58.626193",
+        "type_detection_confidence": 0.7
+      },
+      "efficiency_analysis": {
+        "current_efficiency": 22.005,
+        "optimal_efficiency": 85.0,
+        "efficiency_gap": 0.654,
+        "current_utilization": 0.503,
+        "optimal_utilization": 0.75,
+        "current_variance": 0.0004,
+        "optimal_variance": 0.0002,
+        "function_fitted": false,
+        "calculation_method": "corrected_gmb_ecc_v2_1_0_realistic",
+        "fit_quality": null,
+        "configuration_based_calculation": true
+      },
+      "benchmarking": {
+        "category": "Misconfigured",
+        "priority": "3",
+        "efficiency_gap": 0.654,
+        "annual_savings_potential_eur": 70.63,
+        "optimization_effort_score": 1.0,
+        "validation_details": {},
+        "realistic_savings": true,
+        "configuration_based_calculation": true
+      },
+      "precision_analysis": {
+        "current_mode": "high_precision",
+        "recommended_mode": "standard",
+        "current_variance": 0.005,
+        "target_variance": 0.02,
+        "cost_impact_eur": -129600.0,
+        "confidence_score": 0.3,
+        "precision_improvement_recommended": true
+      },
+      "utilization_analysis": {
+        "data_points": 3641,
+        "current_average": 0.503,
+        "optimal_range": [
+          0.6,
+          0.8
+        ],
+        "efficiency_correlation": 0.0,
+        "analysis_quality": "high",
+        "trend_analysis": "stable",
+        "calculation_method": "corrected_component_specific_v2_1_0"
+      },
+      "summary": {
+        "annual_savings_potential_eur": 70.63,
+        "optimization_priority_score": 0.75,
+        "implementation_effort_score": 1.0,
+        "data_quality": "high",
+        "calculation_method": "configuration_based_gmb_ecc",
+        "validation_issues": [],
+        "configuration_used": {
+          "component_type": "robot",
+          "power_rating_w": 80,
+          "peak_efficiency": 85.0,
+          "optimal_utilization": 0.75
+        }
+      }
+    },
+    "EB001": {
+      "component_info": {
+        "component_id": "EB001",
+        "component_type": "edge_box",
+        "location": "unknown",
+        "analysis_timestamp": "2025-10-06T12:36:58.626202",
+        "type_detection_confidence": 0.7
+      },
+      "efficiency_analysis": {
+        "current_efficiency": 17.93,
+        "optimal_efficiency": 82.0,
+        "efficiency_gap": 0.665,
+        "current_utilization": 0.075,
+        "optimal_utilization": 0.65,
+        "current_variance": 0.0004,
+        "optimal_variance": 0.0002,
+        "function_fitted": false,
+        "calculation_method": "corrected_gmb_ecc_v2_1_0_realistic",
+        "fit_quality": null,
+        "configuration_based_calculation": true
+      },
+      "benchmarking": {
+        "category": "Misconfigured",
+        "priority": "3",
+        "efficiency_gap": 0.665,
+        "annual_savings_potential_eur": 53.84,
+        "optimization_effort_score": 1.0,
+        "validation_details": {},
+        "realistic_savings": true,
+        "configuration_based_calculation": true
+      },
+      "precision_analysis": {
+        "current_mode": "high_precision",
+        "recommended_mode": "standard",
+        "current_variance": 0.005,
+        "target_variance": 0.02,
+        "cost_impact_eur": -129600.0,
+        "confidence_score": 0.3,
+        "precision_improvement_recommended": true
+      },
+      "utilization_analysis": {
+        "data_points": 5348,
+        "current_average": 0.075,
+        "optimal_range": [
+          0.5,
+          0.75
+        ],
+        "efficiency_correlation": 0.0,
+        "analysis_quality": "high",
+        "trend_analysis": "stable",
+        "calculation_method": "corrected_component_specific_v2_1_0"
+      },
+      "summary": {
+        "annual_savings_potential_eur": 53.84,
+        "optimization_priority_score": 0.75,
+        "implementation_effort_score": 1.0,
+        "data_quality": "high",
+        "calculation_method": "configuration_based_gmb_ecc",
+        "validation_issues": [],
+        "configuration_used": {
+          "component_type": "edge_box",
+          "power_rating_w": 60,
+          "peak_efficiency": 85.0,
+          "optimal_utilization": 0.75
+        }
+      }
+    },
+    "EB002": {
+      "component_info": {
+        "component_id": "EB002",
+        "component_type": "edge_box",
+        "location": "unknown",
+        "analysis_timestamp": "2025-10-06T12:36:58.626210",
+        "type_detection_confidence": 0.7
+      },
+      "efficiency_analysis": {
+        "current_efficiency": 8.588,
+        "optimal_efficiency": 82.0,
+        "efficiency_gap": 0.759,
+        "current_utilization": 0.035,
+        "optimal_utilization": 0.65,
+        "current_variance": 0.0004,
+        "optimal_variance": 0.0002,
+        "function_fitted": false,
+        "calculation_method": "corrected_gmb_ecc_v2_1_0_realistic",
+        "fit_quality": null,
+        "configuration_based_calculation": true
+      },
+      "benchmarking": {
+        "category": "Misconfigured",
+        "priority": "3",
+        "efficiency_gap": 0.759,
+        "annual_savings_potential_eur": 61.4,
+        "optimization_effort_score": 1.0,
+        "validation_details": {},
+        "realistic_savings": true,
+        "configuration_based_calculation": true
+      },
+      "precision_analysis": {
+        "current_mode": "high_precision",
+        "recommended_mode": "standard",
+        "current_variance": 0.005,
+        "target_variance": 0.02,
+        "cost_impact_eur": -129600.0,
+        "confidence_score": 0.3,
+        "precision_improvement_recommended": true
+      },
+      "utilization_analysis": {
+        "data_points": 5811,
+        "current_average": 0.035,
+        "optimal_range": [
+          0.5,
+          0.75
+        ],
+        "efficiency_correlation": 0.0,
+        "analysis_quality": "high",
+        "trend_analysis": "stable",
+        "calculation_method": "corrected_component_specific_v2_1_0"
+      },
+      "summary": {
+        "annual_savings_potential_eur": 61.4,
+        "optimization_priority_score": 0.75,
+        "implementation_effort_score": 1.0,
+        "data_quality": "high",
+        "calculation_method": "configuration_based_gmb_ecc",
+        "validation_issues": [],
+        "configuration_used": {
+          "component_type": "edge_box",
+          "power_rating_w": 60,
+          "peak_efficiency": 85.0,
+          "optimal_utilization": 0.75
+        }
+      }
+    },
+    "CS001": {
+      "component_info": {
+        "component_id": "CS001",
+        "component_type": "charging_station",
+        "location": "unknown",
+        "analysis_timestamp": "2025-10-06T12:36:58.626219",
+        "type_detection_confidence": 0.7
+      },
+      "efficiency_analysis": {
+        "current_efficiency": 15.333,
+        "optimal_efficiency": 92.0,
+        "efficiency_gap": 0.791,
+        "current_utilization": 0.1,
+        "optimal_utilization": 0.6,
+        "current_variance": 0.0004,
+        "optimal_variance": 0.0002,
+        "function_fitted": false,
+        "calculation_method": "corrected_gmb_ecc_v2_1_0_realistic",
+        "fit_quality": null,
+        "configuration_based_calculation": true
+      },
+      "benchmarking": {
+        "category": "Misconfigured",
+        "priority": "3",
+        "efficiency_gap": 0.791,
+        "annual_savings_potential_eur": 533.65,
+        "optimization_effort_score": 1.0,
+        "validation_details": {},
+        "realistic_savings": true,
+        "configuration_based_calculation": true
+      },
+      "precision_analysis": {
+        "current_mode": "high_precision",
+        "recommended_mode": "standard",
+        "current_variance": 0.005,
+        "target_variance": 0.02,
+        "cost_impact_eur": -129600.0,
+        "confidence_score": 0.3,
+        "precision_improvement_recommended": true
+      },
+      "utilization_analysis": {
+        "data_points": 135,
+        "current_average": 0.1,
+        "optimal_range": [
+          0.4,
+          0.8
+        ],
+        "efficiency_correlation": 0.0,
+        "analysis_quality": "high",
+        "trend_analysis": "stable",
+        "calculation_method": "corrected_component_specific_v2_1_0"
+      },
+      "summary": {
+        "annual_savings_potential_eur": 533.65,
+        "optimization_priority_score": 0.75,
+        "implementation_effort_score": 1.0,
+        "data_quality": "high",
+        "calculation_method": "configuration_based_gmb_ecc",
+        "validation_issues": [],
+        "configuration_used": {
+          "component_type": "charging_station",
+          "power_rating_w": 11000,
+          "peak_efficiency": 85.0,
+          "optimal_utilization": 0.75
+        }
+      }
+    }
+  },
+  "data_quality_summary": {
+    "total_components": 9,
+    "high_quality_components": 9,
+    "data_completeness_ratio": 1.0
+  },
+  "validation_summary": {
+    "configuration_compliance": {
+      "compliance_ratio": 1.0,
+      "all_imports_correct": true,
+      "parameter_names_verified": true,
+      "configuration_based": true
+    },
+    "total_validation_issues": 0,
+    "all_imports_correct": true,
+    "framework_version": "2.2.0-pdf-compliant"
+  },
+  "calculation_summary": {
+    "total_efficiency_calculations": 9,
+    "total_utilization_calculations": 9,
+    "total_benchmark_calculations": 9
+  },
+  "customer_settings": {
+    "customer_info": {
+      "customer_id": "test_customer",
+      "customer_name": "Test Customer - GMB-ECC Validation",
+      "analysis_location": "Test Environment",
+      "data_directory": "customer_data_test_customer"
+    },
+    "economic_config": {
+      "energy_cost_per_kwh": 0.25,
+      "carbon_intensity_g_per_kwh": 401,
+      "annual_runtime_hours": 8760,
+      "discount_rate": 0.08,
+      "analysis_horizon_years": 3,
+      "maintenance_cost_factor": 0.05,
+      "implementation_time_months": 2,
+      "currency": "EUR"
+    },
+    "precision_config": {
+      "precision_target": 0.95,
+      "cost_budget_eur": 1200.0,
+      "measurement_cost_per_component_eur": 50.0,
+      "minimum_data_points": 10
+    },
+    "multi_state_config": {
+      "enabled": true,
+      "max_states": 5,
+      "transition_cost_factor": 0.1,
+      "min_efficiency_improvement": 0.05
+    },
+    "data_quality_config": {
+      "min_data_points": 10,
+      "max_coefficient_variation": 2.0,
+      "outlier_std_threshold": 2.5,
+      "min_non_zero_ratio": 0.1,
+      "completeness_threshold": 0.8,
+      "minimum_measurement_period_days": 7
+    },
+    "component_thresholds": {
+      "robot": {
+        "well_tuned_threshold": 0.12,
+        "misconfigured_threshold": 0.2,
+        "critical_threshold": 0.35
+      },
+      "edge_box": {
+        "well_tuned_threshold": 0.15,
+        "misconfigured_threshold": 0.25,
+        "critical_threshold": 0.4
+      },
+      "antenna": {
+        "well_tuned_threshold": 0.18,
+        "misconfigured_threshold": 0.3,
+        "critical_threshold": 0.45
+      },
+      "baseband": {
+        "well_tuned_threshold": 0.14,
+        "misconfigured_threshold": 0.22,
+        "critical_threshold": 0.35
+      },
+      "radio_unit": {
+        "well_tuned_threshold": 0.16,
+        "misconfigured_threshold": 0.25,
+        "critical_threshold": 0.4
+      },
+      "charging_station": {
+        "well_tuned_threshold": 0.1,
+        "misconfigured_threshold": 0.18,
+        "critical_threshold": 0.3
+      }
+    },
+    "framework_info": {
+      "name": "GMB-ECC Framework",
+      "version": "2.2.0-pdf-compliant",
+      "configuration_validated": true,
+      "gmb_ecc_methodology": "4-category (Framework extended from PDF)",
+      "total_component_types": 6
+    },
+    "metadata": {
+      "settings_version": "2.2.0-optimized",
+      "categorization_system": "4-category (Framework extended)",
+      "configuration_source": "customer_overrides",
+      "validation_passed": true
+    }
+  },
+  "framework_settings": {
+    "name": "GMB-ECC Framework",
+    "version": "2.2.0-pdf-compliant",
+    "configuration_validated": true,
+    "gmb_ecc_methodology": "4-category (Framework extended from PDF)",
+    "total_component_types": 6
+  },
+  "export_metadata": {
+    "export_timestamp": "2025-10-06T12:36:58.628892",
+    "framework_version": "2.2.0-pdf-compliant",
+    "export_format_version": "2.2.0",
+    "total_components_analyzed": 9,
+    "configuration_based": true,
+    "attribute_references_corrected": true
+  }
+}
